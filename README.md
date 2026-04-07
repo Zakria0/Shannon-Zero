@@ -1,13 +1,13 @@
 # Shannon-Zero: Neural Media Compression & Steganographic Engine
 Shannon-Zero is a deep-tech neural compression engine that utilizes Sinusoidal Representation Networks (SIREN) to overfit and compress media files into highly optimized neural weights. By representing images as continuous mathematical functions rather than discrete pixel grids, Shannon-Zero achieves resolution-independent rendering and advanced cryptographic capabilities.
 
-## 🧠 Core Architecture & Innovations
+## Core Architecture & Innovations
 * **Adaptive Profiling (Data-Aware NAS):** Analyzes spatial variance (Shannon Entropy) and High-Frequency Spectral Energy (2D FFT) prior to initialization to dynamically taper network topology and Fourier dimensions.
 * **The Janus Protocol (Steganography):** A dual-reality training mode that embeds a secret image beneath a decoy. Uses Null-Space Projection, Latent Orthogonality (forcing a 90-degree cosine similarity), and deterministic geometric PIN hashing for cryptographic retrieval.
 * **Artifact Production Pipeline:** Automated FP16 Quantization and GZIP entropy coding reduce the final model footprint by up to 50% without perceptual degradation.
 * **Dynamic Resolution & Gradient Loss:** Implements Coarse-to-Fine dynamic resolution scaling and First-Order Derivative Loss (Sobel Filters) to force the network to learn geometric structure over mere color.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 shannon-zero1/
@@ -27,7 +27,7 @@ shannon-zero1/
 └── requirements.txt       # Dependencies
 ```
 
-## ⚙️ Installation
+## Installation
 Clone the repository and install the required dependencies:
 
 ```bash
@@ -38,7 +38,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage Guide
+## Usage Guide
 Shannon-Zero operates via a central CLI orchestrator. It features three built-in quality profiles:
 
 ```draft```: 480p Debug Mode. Rapid prototyping without Fourier Features.
