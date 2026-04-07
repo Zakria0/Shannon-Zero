@@ -1,0 +1,20 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build, Compression, and Deployment Artifacts
+*.gz
+*.zip
+shannon-zero1-deploy.zip
+
+# Test Images / Output Media
+decoy.png
+secret.png
+test_image.jpg
+marrakech.png
+extracted_marrakech.png
+
+# SENSITIVE / PERSONAL DATA - STRICTLY IGNORE
+my_passport.png
